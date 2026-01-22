@@ -154,7 +154,7 @@ function overlap(a, b) {
 
 // Draws the blob using Perlin noise for a soft, breathing effect
 function drawBlobCircle(b) {
-  fill(200, 0, 0);
+  fill(200, 0, 0); // Blob colour, red for anxiety
   beginShape();
 
   for (let i = 0; i < b.points; i++) {
