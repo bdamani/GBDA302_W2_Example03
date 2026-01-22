@@ -9,9 +9,9 @@ let blob3 = {
 
   // Visual properties
   r: 26, // Base radius
-  points: 48, // Number of points used to draw the blob
-  wobble: 7, // Edge deformation amount
-  wobbleFreq: 0.9,
+  points: 10, // Number of points used to draw the blob
+  wobble: -70, // Edge deformation amount
+  wobbleFreq: 0.2, // Edge deformation frequency
 
   // Time values for breathing animation
   t: 0,
@@ -63,10 +63,10 @@ function setup() {
 }
 
 function draw() {
-  background(240);
+  background(0, 0, 0);
 
   // --- Draw all platforms ---
-  fill(200);
+  fill(300);
   for (const p of platforms) {
     rect(p.x, p.y, p.w, p.h);
   }
@@ -154,7 +154,7 @@ function overlap(a, b) {
 
 // Draws the blob using Perlin noise for a soft, breathing effect
 function drawBlobCircle(b) {
-  fill(20, 120, 255);
+  fill(200, 0, 0);
   beginShape();
 
   for (let i = 0; i < b.points; i++) {
