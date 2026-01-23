@@ -15,7 +15,7 @@ Adjustements made by Bela Damani
 
 Adds several rectangular platforms. The blob is drawn as a noisy circle but collides using a simple axis-aligned bounding box (AABB). X and Y are resolved separately to keep behaviour predictable and teachable.
 
-Adjustements: Tasked with changing the look and feel of the blob. I made it so that the emotion was anxiety, byt changing the frequency, the wobble and the colours. The blob is now more agitated and
+Adjustements: For the assignment we were tasked with changing the look and feel of the blob. I made it so that the emotion was anxiety, byt changing the frequency, the wobble and the colours. The now red blob is now more agitated and moves fast with sharper sides, and the background is black.
 
 ---
 
@@ -38,5 +38,7 @@ N/A
 ## GenAI
 
 The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+
+No GenAI was used to adjust the code.
 
 ---
